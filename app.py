@@ -22,7 +22,6 @@ st.image("banner.jpg")
 ("""This application is made to predict solar radiation based energy output generation. To make it work, please input values on the left handside. This prediction is yearly prediction.
 """)
 
-st.divider()
 
 st.sidebar.image('side.jpg')
 
