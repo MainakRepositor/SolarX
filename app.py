@@ -58,8 +58,8 @@ month = st.sidebar.selectbox('Month', month_list)
 day = st.sidebar.selectbox('Day of month', list_day)
 
 temperature = st.sidebar.slider(label = 'Average daily temperature', min_value = -3,
-                          max_value = 37,
-                          value = 14,
+                          max_value = 47,
+                          value = 10,
                           step = 1)
 
 precipitations = st.sidebar.slider(label = 'Average daily precipitations', min_value = 3,
