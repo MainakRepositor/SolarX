@@ -133,7 +133,7 @@ if st.button('Predict'):
     
     prediction = loaded_reg.predict(features_df)[0]
     st.info('Prediction completed!')
-    st.success(f"The forecasted power output is {np.round(prediction+k,2)} " + "W/h")
+    st.success(f"The forecasted power output is {np.round(prediction+k,2)} " + "kW/h")
     
 st.write("---")
 
